@@ -13,4 +13,44 @@ Purpose of the Nimbus framework:
 	Providing the ability to build application through configuration.
 	Providing boilerplate code for cross cutting concerns.
 
+Regarding the Point 6b - Below are the some findings for Configuration in this framework.
 
+Core Config Annotations
+
+@AccessConditional - This can be used to control the access based on the user authorities. _only action entitlements supported currently
+
+@ValuesConditional - This can be used to change the drop down values for multi-select controls based on the state of other param(s)
+
+@Rule - This can be used to trigger one or more rule definitions during its OnStateLoad and OnStateChange events.
+
+@AccessConditionals
+
+now supports collection of @AccessConditional (repeatable)
+
+@EnableConditional
+
+can now be used to set the "enabled" state of a param during the OnStateLoad and OnStateChange events. To control both the "enabled" and "visible", continue using @ActivateConditional(s).
+
+@ParamContext
+
+Can now be used to decorate fields and set default contextual values (e.g. visible, enabled) during the OnStateLoad event.
+
+@ValuesConditional
+
+Introduced resetOnChange property
+
+@ExpressionConditional, @ExpressionConditionals
+
+Clients now have the ability to conditionally apply SpEL logic based on a SpEL condition.
+
+@ValidateConditional, @ValidateConditionals
+
+Clients now have the ability to conditionally apply validation logic based on a SpEL condition.
+
+@Grid
+
+@Grid can now be configured to display additional data in an expandable row, via @GridRowBody.
+
+@VisibleConditional, @VisibleConditionals
+
+Clients now have the ability to set the visible state of a param based on a SPeL statement.
