@@ -1,0 +1,16 @@
+Main technologies used in Nimbus framework:
+	Java
+	Maven
+	NodeJs
+	STS
+	VS Code
+	Docker
+	Rest Client
+	Lombok
+	Robo 3T
+
+Purpose of the Nimbus framework:
+	Providing the ability to build application through configuration.
+	Providing boilerplate code for cross cutting concerns.
+
+
