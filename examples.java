@@ -1,9 +1,11 @@
 
-Regarding point6, I have choosen 6b - How @Config annotations are used in the framework with examples.
-Under this path (https://github.com/openanthem/nimbus-core/tree/develop/nimbus-core/src/main/java/com/antheminc/oss/nimbus/app/extension/config)
-we have so many examples related to @Config.   
+/** 
+* Regarding point6, I have choosen 6b - How @Config annotations are used in the framework with examples.
+* Under this path (https://github.com/openanthem/nimbus-core/tree/develop/nimbus-core/src/main/java/com/antheminc/oss/nimbus/app/extension/config)
+* we have so many examples related to @Config.   
                  
-Please find the example for DefaultCoreBuilderConfig.java below.
+* Please find the example for DefaultCoreBuilderConfig.java below.
+*/
                  
 /**
  *  Copyright 2016-2018 the original author or authors.
